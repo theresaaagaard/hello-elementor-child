@@ -31,3 +31,42 @@ margin: 10px;
 #content > div > div.elementor.elementor-95 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8ef06d0.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div{
     margin-top: 30px;
 }
+
+/* ændrer farve på alle links */
+a {
+    color: black;
+}
+
+a:hover{
+    color: #FCAF2C;
+}
+
+/* //FOOTER// */
+
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(2) {
+    color: #fff;
+}
+
+.elementor-element,#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(2) > label > input[type="email"] {
+   
+    text-align: center;
+}
+
+
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(2) > label > input[type="email"]{
+    margin: auto;
+    text-align: center;
+}
+
+    
+    #colophon > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-344af222.elementor-section-height-min-height.elementor-section-boxed.elementor-section-height-default.elementor-section-items-middle > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-2c0d0a7{
+margin-top: 30px;
+    }
+
+
+/* tim feldmann event-dage */
+    
+    #dag1, #dag2, #dag3 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
