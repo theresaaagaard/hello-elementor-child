@@ -11,23 +11,32 @@ Updated: 2022-05-04 21:51:25
 
 */
 
+header {
+    margin-bottom: 50px;
+}
+
 #content > div > div.elementor.elementor-97 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-80b78df.elementor-section-boxed.elementor-section-height-default{
     margin: 0;
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 /* //HOLDPLAN//  */
 
 /* laver rammer rundtom ugedagene */
 #ugedag1, #ugedag2, #ugedag3, #ugedag4, #ugedag5, #ugedag6 {
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
 border-style: solid;
-border-width: 1px 1px 1px 1px;
-border-radius: 30px 30px 30px 30px;
-margin: 10px;
+border-width: 1px;
+border-radius: 30px;
+margin: 5px;
 }
 
-/* skaber white space mellem holdplan og h2 "holdplan" */
+/* skaber white space mellem selve holdplanen og h2 "holdplan" */
 #content > div > div.elementor.elementor-95 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8ef06d0.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div{
     margin-top: 30px;
 }
@@ -69,4 +78,8 @@ margin-top: 30px;
     #dag1, #dag2, #dag3 {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .site-footer {
+        padding: 0;
     }
