@@ -20,20 +20,35 @@ header {
     width: 100%;
 }
 
-a {
-    text-decoration: none;
+/* NAV BAR */
+
+
+
+li.menu-item.current-menu-item a {
+	border-bottom: 1px solid rgb(60, 74,74);
 }
 
+#content > div > div.elementor.elementor-99 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-684ec5e.elementor-section-boxed.elementor-section-height-default > div > div > div > div > div > p > a{
+    color: #FCAF2C;
+}
+
+#content > div > div.elementor.elementor-50 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-dcc38e9.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-8062bd2.elementor-widget.elementor-widget-text-editor > div > p > a{
+    color: #FCAF2C;
+}
+
+a:hover {
+    border-bottom: 1px solid rgb(60, 74,74);
+}
 
 /* //HOLDPLAN//  */
 
 /* laver rammer rundtom ugedagene */
 #ugedag1, #ugedag2, #ugedag3, #ugedag4, #ugedag5, #ugedag6 {
-    padding: 10px;
+    padding: 15px;
 border-style: solid;
 border-width: 1px;
-border-radius: 30px;
 margin: 5px;
+
 }
 
 /* skaber white space mellem selve holdplanen og h2 "holdplan" */
@@ -48,6 +63,10 @@ a {
 
 a:hover{
     color: #FCAF2C;
+}
+
+footer a {
+    color: #fff;
 }
 
 /* //FOOTER// */
@@ -73,6 +92,7 @@ margin-top: 30px;
     }
 
 
+
 /* tim feldmann event-dage */
     
     #dag1, #dag2, #dag3 {
@@ -83,3 +103,93 @@ margin-top: 30px;
     .site-footer {
         padding: 0;
     }
+
+
+    /* tilmeld knap nyhedsbrev */
+
+    .mc4wp-form-theme-dark button, .mc4wp-form-theme-dark input[type=button], .mc4wp-form-theme-dark input[type=submit] {
+        background-color: #FCAF2C!important;
+        color: #fff!important;
+    }
+
+    #tilmeld_knap:hover{
+        background-color: #FFF !important;
+        color: #000000 !important;
+    } 
+
+    /* WHITE SPACE TIL TABLET STR */
+
+    @media screen and (max-width: 800px) {
+        #section1, #section2{ margin: 20px;
+        }
+        footer {
+            margin: 0;
+        }
+        }
+        
+        @media screen and (min-width: 767px) {
+            #section1, #section2 { margin: 20px;
+            }
+            footer {
+                margin: 0;
+            }
+        }
+
+
+    .custom-logo{
+        margin: 10px;
+    }
+
+    #content > div > div.elementor.elementor-50 > footer {
+        margin: 0;
+    }
+
+    #mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(2) > label > input[type=email]{
+        width: 90%;
+    }
+
+    /* IKONER FORSIDE */
+
+    @media screen and (max-width: 767px) {
+        
+        .ikon-holdplan, .ikon-priser, .ikon-events, .ikon-ny {
+        max-width: 60%;
+        height: auto;
+        text-align: center;
+        }
+    }
+    @media screen and (max-width: 767px){
+        #ikoner > div.elementor-container.elementor-column-gap-no > div > div {
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #ikoner > div.elementor-container.elementor-column-gap-no > div > div img {
+    margin-left: 30%;   
+}
+}
+
+
+@media screen and (min-width: 767px){
+    #ikoner > div.elementor-container.elementor-column-gap-no > div > div img {
+ max-width: 70%;
+}
+}
+
+@media screen and (min-width: 1025px){
+    #ikoner > div.elementor-container.elementor-column-gap-no > div > div img {
+ max-width: 100%;
+   
+}
+}
+#ikoner > div.elementor-container.elementor-column-gap-no > div > div > section{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#ikoner > div.elementor-container.elementor-column-gap-no {
+    min-height: 370px;
+}
